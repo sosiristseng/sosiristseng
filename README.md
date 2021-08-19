@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hi Wen-Wei here 👋
+
+![](https://raw.githubusercontent.com/sosiristseng/sosiristseng/output/github-contribution-grid-snake.svg)
 
 <!--
 **sosiristseng/sosiristseng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
