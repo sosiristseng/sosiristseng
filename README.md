@@ -6,8 +6,8 @@ A PhD student of the Biomedical Systems Engineering (BMSE) lab from the [Graduat
 
 ## Working on
 
-* Mitochodrial dynamics in response to energy status and external stimuli.
-* Mitochodnrial function, reactive oxygen species, and cardiac electrophysiology.
+* Mitochondrial dynamics in response to energy status and external stimuli.
+* Mitochondrial function, reactive oxygen species, and cardiac electrophysiology.
 
 ## Currently investigating
 
