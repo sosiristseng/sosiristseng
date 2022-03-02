@@ -14,9 +14,9 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.3.2
         with:
-          args: '--accept 200,204,429 --verbose --no-progress **/*.md'
+          args: '--accept 200,204,429 --verbose --no-progress .'
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v3
