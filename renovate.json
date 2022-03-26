@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "config:base"
+    ],
+    "git-submodules": {
+        "enabled": true
+    },
+    "packageRules": [
+        {
+          "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+          "automerge": true
+        }
+    ],
+    "platformAutomerge": true
+}
