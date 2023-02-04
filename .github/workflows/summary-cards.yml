@@ -8,7 +8,6 @@ on:
 jobs:
   summary-cards:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - uses: vn7n24fzkq/github-profile-summary-cards@release
