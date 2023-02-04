@@ -24,7 +24,7 @@ jobs:
       - name: Delete containers older than a week
         uses: snok/container-retention-policy@v1
         with:
-          image-names: mmsb-bebi-5009
+          image-names: mmsb-bebi-5009, mitodyn-ode
           cut-off: A week ago UTC
           account-type: org
           org-name: ntumitolab
