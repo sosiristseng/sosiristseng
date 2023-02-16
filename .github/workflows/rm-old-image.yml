@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.RM_IMAGE }}
 
       - name: Delete containers older than a week
-        uses: snok/container-retention-policy@v1
+        uses: snok/container-retention-policy@v2
         with:
           image-names: mmsb-bebi-5009, mitodyn-ode
           cut-off: A day ago UTC
