@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete containers older than a week
-        uses: snok/container-retention-policy@v1
+        uses: snok/container-retention-policy@v2
         with:
           image-names: abm, dataframes, diffeq, pde, plot
           cut-off: A day ago UTC
@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.RM_IMAGE }}
           
       - name: Delete containers older than a week
-        uses: snok/container-retention-policy@v1
+        uses: snok/container-retention-policy@v2
         with:
           image-names: template-juliabook, template-juliabook-cirrus, template-juliabook-classic, template-quarto-julia
           cut-off: A day ago UTC
