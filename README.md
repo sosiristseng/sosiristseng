@@ -6,7 +6,3 @@
 ## Hi Wen-Wei here
 
 A PhD student of the Biomedical Systems Engineering (BMSE) lab from the [Graduate institude of Biomedical Engineering and Bioinformatics (BEBI)](http://www.bebi.ntu.edu.tw/web/index/index.jsp), [National Taiwan University (NTU)](https://www.ntu.edu.tw). I'm currently studying the functions of **mitochondria**, the powerhouse of the cell, via _in silico_ studies  (a.k.a. computer simulations).
-
-## Repos
-
-[Julia Notebooks](https://github.com/ww-julia?type=source)
