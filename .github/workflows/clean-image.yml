@@ -1,0 +1,32 @@
+name: Clean Old docker images
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  clean-image:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete containers older than a week
+        uses: snok/container-retention-policy@v2
+        with:
+          image-names: mitodyn-ode,bebi-5009
+          cut-off: One month ago UTC
+          account-type: org
+          org-name: ntumitolab
+          keep-at-least: 1
+          token: ${{ secrets.IMAGE_PAT }}
+      - name: Delete containers older than a week
+        uses: snok/container-retention-policy@v2
+        with:
+          image-names: jl-*,template-*
+          cut-off: One month ago UTC
+          keep-at-least: 1
+          account-type: personal
+          token: ${{ secrets.IMAGE_PAT }}
+ 
